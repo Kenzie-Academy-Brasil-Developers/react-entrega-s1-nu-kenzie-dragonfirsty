@@ -1,0 +1,79 @@
+.Card--li--entrada{
+
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    border-left:  solid  4px green;
+    margin-bottom: 15px;
+
+}
+
+.Card--li--saida{
+
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    border-left: solid 4px gray;
+    margin-bottom: 15px;
+
+}
+
+.Card--li--div{
+
+    display: flex;
+
+}
+
+.Card--description{
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #212529;
+    width: 70%;
+    margin: auto 0; 
+    text-align: start;
+    padding-left: 10px;
+
+}
+
+.Card--value{
+
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+    margin: auto;
+
+}
+
+.Card--btn{
+
+    background-color: #5B6166;
+    background: #E9ECEF;
+    border-radius: 2.46154px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    max-width: 20px;
+    max-height: 20px;
+    margin: auto;
+}
+
+.Card--type{
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #5B6166;
+    text-align: start;
+    padding-left: 10px;
+
+}

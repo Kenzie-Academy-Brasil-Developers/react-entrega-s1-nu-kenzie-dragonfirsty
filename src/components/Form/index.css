@@ -1,0 +1,161 @@
+.Form--cadastro{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    max-width: 363px;
+    min-width: 320px
+
+}
+
+/* label descrição */
+
+.Form--label--Descrição{
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align:initial;
+
+}
+
+.Form--Descrição--nome{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+
+}
+
+.Form--label--Descrição input{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #868E96;
+    height:52.8px;
+
+}
+
+.Form--Descrição--Ex{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #868E96;
+
+}
+
+/* div labels */
+.Form--cadastro--labels{
+
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    margin-bottom: 15px;
+
+}
+
+
+/* label valor */
+
+.Form--label--valor{
+
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+
+}
+
+.Form--label--valor input{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height:48px;
+
+}
+
+/* label tipo de valor */
+
+.Form--label--tipoDeValor{
+
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+
+}
+
+.Form--label--tipoDeValor select{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px; 
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px; 
+    height:48px;  
+
+}
+
+/* cadastro button */
+
+.Form--cadastro--button{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+    background: #FD377E;
+    border: 2px solid #FD377E;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 80%;
+    margin: 0 auto;
+}

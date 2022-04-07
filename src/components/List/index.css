@@ -1,0 +1,82 @@
+.List--ul{
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start:10px
+
+}
+
+.List--header{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.List-Resume{
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #212529;
+    text-align: center;
+}
+
+.List-buttons{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    
+}
+
+.List-buttons button{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    max-width: 90px;
+    margin-left: 10px;
+
+}
+
+
+.List-buttons button:hover{
+
+    background: #FD377E;
+    border: 1.4px solid #FD377E;
+
+}
+
+@media (min-width: 768px){
+
+.List--header{
+
+    flex-direction: row;
+    justify-content: space-between; 
+
+}    
+
+.List--ul{
+
+    padding-inline-start:40px
+
+}
+
+.List--Resume{
+
+    padding-left: 13px;
+
+}
+
+}
