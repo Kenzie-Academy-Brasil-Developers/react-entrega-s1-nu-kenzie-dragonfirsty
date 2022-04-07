@@ -50,6 +50,12 @@
 
 }
 
+.List-buttons button:focus{
+
+    background: #5B6166;
+    border: 1.4px solid #5B6166;
+
+}
 
 .List-buttons button:hover{
 

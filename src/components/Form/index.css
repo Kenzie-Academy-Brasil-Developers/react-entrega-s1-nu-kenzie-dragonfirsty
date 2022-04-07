@@ -52,6 +52,18 @@
     height:52.8px;
 
 }
+.Form--label--Descrição input:hover{
+
+    border: 1.2px solid #212529;
+
+}
+
+.Form--label--Descrição input:focus{
+
+    border: 2px solid #212529;
+
+}
+
 
 .Form--Descrição--Ex{
 
@@ -106,6 +118,19 @@
 
 }
 
+.Form--label--valor input:hover{
+
+    border: 1.2px solid #212529;
+
+}
+
+.Form--label--valor input:focus{
+
+    border: 2px solid #212529;
+
+}
+
+
 /* label tipo de valor */
 
 .Form--label--tipoDeValor{
@@ -137,6 +162,19 @@
 
 }
 
+.Form--label--tipoDeValor select:hover{
+
+    border: 1.2px solid #212529;
+
+}
+
+.Form--label--tipoDeValor select:focus{
+
+    border: 1.2px solid #212529;
+
+}
+
+
 /* cadastro button */
 
 .Form--cadastro--button{
@@ -158,4 +196,12 @@
     color: #FFFFFF;
     width: 80%;
     margin: 0 auto;
+}
+
+
+.Form--cadastro--button:hover{
+
+    background: #E34981;
+    border: 2px solid #E34981;
+
 }

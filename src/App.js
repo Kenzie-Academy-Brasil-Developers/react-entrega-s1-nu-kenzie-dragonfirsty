@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState } from "react";
-import logo from "./components/images/Nu_Kenzie.svg";
+import logo from "./images/Nu_Kenzie.svg";
 import {FormCadastro} from "./components/Form";
 import List from "./components/List";
 import {TotalValue} from "./components/TotalValue"
@@ -9,10 +9,7 @@ import {TotalValue} from "./components/TotalValue"
 
 function App() {
 
-  const [ListTransactions, setListTransactions] = useState([
-    { description: "Salário recebido", type: "entrada", value: 2500 },
-    { description: "Conta de luz", type: "saída", value: -150 }
-  ])
+  const [ListTransactions, setListTransactions] = useState([])
 
       return (
         <div className="App">

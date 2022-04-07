@@ -4,7 +4,7 @@ export function TotalValue({ListTransactions}){
 
     let totalPrice = ListTransactions.reduce(
     
-        (previousValue, currentValue) => previousValue + currentValue.value,0
+        (previousValue, currentValue) => previousValue + Number(currentValue.value),0
                 
     )
 
