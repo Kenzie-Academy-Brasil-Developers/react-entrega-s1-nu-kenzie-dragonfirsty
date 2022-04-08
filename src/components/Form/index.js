@@ -7,7 +7,18 @@ export function FormCadastro({ListTransactions,setListTransactions}){
     const [value, setValue] = useState(1);
     const [type, setType] = useState("entrada");
 
-    
+    function signalPrice(){
+
+
+        if(type === 'saida' && value > 0){
+
+            setValue(value * -1)
+
+        }
+        
+    }
+
+
     function createData(event){
 
         event.preventDefault()
@@ -52,7 +63,7 @@ export function FormCadastro({ListTransactions,setListTransactions}){
                 </label>       
             </div>
 
-            <button type="submit" className="Form--cadastro--button">Inserir valor</button>    
+            <button type="submit" className="Form--cadastro--button" onClick={signalPrice}>Inserir valor</button>    
 
         </form>
 

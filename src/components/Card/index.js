@@ -17,6 +17,8 @@ export function Card({transaction}){
 
     }
 
+   
+
     
     return(
 
